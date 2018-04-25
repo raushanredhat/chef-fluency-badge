@@ -3,3 +3,5 @@ file 'dafault www' do
 	content 'Welcome to cloud wprld!'
 
 end
+
+include_recipe 'apache::websites'
