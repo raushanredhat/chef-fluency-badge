@@ -1,4 +1,4 @@
 hostname = node ['hostname']
 file	'/etc/motd' do 
-	content "hostname is this: #  { Hostname }"
+	content "Hostname is this: #  {hostname }"
 end
